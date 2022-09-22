@@ -15,4 +15,13 @@ The models' performance was judged by the following metrics.
 |      Average MAE      |   0.162  |       0.171      |          0.15         |
 |      Average RMSE     |   0.266  |       0.274      |         0.269         |
 |      Average SSIM     |   0.642  |       0.739      |         0.727         |
+
 Table: FACE TO SKETCH SIMILARITY MEASURES FOR EACH MODEL
+
+| Similarity   Measures | Dense AE | Convolutional AE | Self-Implemented   AE |
+|:---------------------:|:--------:|:----------------:|:---------------------:|
+|      Average MAE      |   0.064  |       0.051      |         0.055         |
+|      Average RMSE     |   0.136  |       0.121      |          0.13         |
+|      Average SSIM     |   0.735  |       0.824      |         0.801         |
+
+Table: SKETCH TO FACE SIMILARITY MEASURES FOR EACH MODEL
