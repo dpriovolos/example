@@ -7,3 +7,12 @@ The expected results for the Face 2 Sketch project for each models are:
 
 The expected results for the Sketch 2 Face project for each models are:
 <img width="540" alt="Sketch 2 face" src="https://user-images.githubusercontent.com/108266112/191848981-89795636-9b59-49c6-8f4c-b4e2e2a327e1.png">
+
+The models' performance was judged by the following metrics.
+
+| Similarity   Measures | Dense AE | Convolutional AE | Self-Implemented   AE |
+|:---------------------:|:--------:|:----------------:|:---------------------:|
+|      Average MAE      |   0.162  |       0.171      |          0.15         |
+|      Average RMSE     |   0.266  |       0.274      |         0.269         |
+|      Average SSIM     |   0.642  |       0.739      |         0.727         |
+Table: FACE TO SKETCH SIMILARITY MEASURES FOR EACH MODEL
